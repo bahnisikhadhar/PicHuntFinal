@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="icon" href="pichunt_logo.jpg">
+    <title>PicHunt Search</title>
+</head>
+<body>
+    <div class="search_container">
+    <div class="logo_name_container">
+       <a href="index.html"> <img src="pichunt_logo.jpg"
+            alt="pichunt_logo"></a>
+        <h1>PicHunt</h1>
+    </div>
+    <form action="search.html" class="search_img_container" >
+    <input type="search" name="search" class="search_input" >
+    <button class="search_btn">search</button>
+    </form>
+</div>
+<!-- -----------------------------POPUP SECTION------------------------- -->
+
+<div class="image_pop_up hide ">
+    <div class="image_pop_up_inner">
+    <button class="close_btn"><i class="fa-solid fa-x"></i></button>
+    <a href="#" class="download_btn">download img</a>
+    <img src="" alt="" class="large_img">
+    <button class="controlbtn pre_btn"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="controlbtn next_btn"> <i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    </div>
+    <!-- ------Shimmer -->
+    <div id="shimmer-container" class="shimmer-container hide">
+        <div class="shimmer-row">
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+        </div>
+        <div class="shimmer-row">
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+        </div>
+        <div class="shimmer-row">
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+            <div class="shimmer-box"></div>
+        </div>
+    </div>
+    <!-- ----------------- -->
+    
+    <section class="gallery">
+        <!-- <img src="luchi-cholar-dal-fried-bread-made-flour-served-along-with-curried-chana-benga.webp" alt=""> -->
+       
+    </section>
+<script src="index.js"></script>
+</body>
+</html>
